@@ -1,10 +1,9 @@
 const form = document.querySelector("#form");
-const btn = document.querySelector("button");
 const feedback = document.querySelector(".feedback");
 
 const calcTip = (e) => {
 	e.preventDefault()
-	
+
 	const cost = form.cost.value;
 
 	let tip = (+cost * 0.05).toFixed(2);
